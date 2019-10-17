@@ -516,7 +516,7 @@
  }
  
  .hs-item {
-   height: 950px;
+   height: 90vh;
    position: relative;
    display: -webkit-box;
    display: -ms-flexbox;
@@ -531,7 +531,7 @@
  .hs-item .hs-bg {
    position: absolute;
    height: 100%;
-   width: 70%;
+   width: 60%;
    max-width: 1298px;
    right: -20%;
    top: 0;
