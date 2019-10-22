@@ -57,7 +57,7 @@ $(window).on('load', function() {
     	animateIn: 'fadeIn',
 		navText: ['<img src="img/icons/arrow-left-white.png" alt="">', '<img src="img/icons/arrow-right-black.png" alt="">'],
         smartSpeed: 1200,
-		autoplay: true,
+		autoplay: false,
 		mouseDrag: false
     }).on("changed.owl.carousel", function(e) {
 		
