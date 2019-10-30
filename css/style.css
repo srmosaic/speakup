@@ -9,7 +9,6 @@
    height: 100%;
    font-family: "Lato", sans-serif;
    -webkit-font-smoothing: antialiased;
-   font-smoothing: antialiased;
  }
  
  h1,
@@ -100,9 +99,10 @@
  }
  
  .sp-container {
-   max-width: 1584px;
-   width: 100%;
-   margin: 0px;
+   margin-left: 20vh;
+   margin-right: 20vh;
+   /* width: 100%; */
+   /* margin: 0px; */
  }
  
  .big-title,
@@ -566,7 +566,7 @@
    width: auto !important;
  }
  
- .hs-item .sp-container {
+.hs-item .sp-container {
    max-width: 1625px;
  }
  
@@ -802,7 +802,7 @@
  
  .page-warp {
    padding: 80px 15px;
-   padding-left: 50px;
+   padding-left: 5vw;
    clear: both;
  }
  
@@ -928,7 +928,6 @@
  .artists-page {
    overflow: hidden;
    padding-bottom: 20px;
-   padding-left: 50px;
  }
  
  .artists-row {
@@ -974,7 +973,6 @@
  
  .blog-page {
    padding-bottom: 0;
-   padding-left: 50px;
  }
  
  .blog-post-item {
@@ -1070,6 +1068,10 @@
  /* Medium screen : 992px. */
  
  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+   .sp-container{
+    margin-left: 0vh;
+    margin-right: 0vh;
+   }
    .header-section .main-menu {
      display: none;
    }
@@ -1154,6 +1156,10 @@
  /* Tablet :768px. */
  
  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sp-container{
+    margin-left: 0vh;
+    margin-right: 0vh;
+   }
    .header-section .main-menu {
      display: none;
    }
@@ -1269,6 +1275,10 @@
  /* Large Mobile :480px. */
  
  @media only screen and (max-width: 767px) {
+  .sp-container{
+    margin-left: 0vh;
+    margin-right: 0vh;
+   }
    .hero-section{
       padding-left: 0vh;
    }
@@ -1441,6 +1451,11 @@
  /* Small Mobile :320px. */
  
  @media only screen and (max-width: 479px) {
+  .sp-container{
+    margin-left: 0vh;
+    margin-right: 0vh;
+   }
+
    .hero-section{
       padding-left: 0vh;
    }
